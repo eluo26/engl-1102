@@ -1,0 +1,1 @@
+Save scanned campus maps here. Name the one for the home page campus.jpg (see index.html).

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Two to Two Hundred: How Georgia Tech's Campus Took Shape</title>
+  <meta name="description" content="A digital story on how Georgia Tech's campus grew from two buildings to over two hundred, told through archival sources.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html">From Two to Two Hundred</a>
+      <nav>
+        <a href="#map">Campus Map</a>
+        <a href="#buildings">Buildings</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= INTRODUCTION ================= -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">A Digital Story · English 1102</p>
+      <h1>From Two to <em>Two Hundred</em>:<span class="h1-sub">How Georgia Tech's Campus Took Shape</span></h1>
+
+      <div class="intro">
+        <span class="draft-note">DRAFT intro: replace with the final opening paragraph (Charlie, due 11/18)</span>
+        <p>
+          When Georgia Tech opened its doors in 1888, the entire school fit within
+          two buildings on a single block near the corner of North Avenue. Today the
+          campus holds more than two hundred buildings and reaches across the
+          Downtown Connector into Midtown Atlanta.
+        </p>
+        <p>
+          We usually tell Georgia Tech's history through its people, traditions, and
+          programs. This story looks at the places instead: the classrooms, dining halls,
+          libraries, and dorms where that history happened. Using archival maps, plans,
+          and photographs from Georgia Tech's Archives and Special Collections, we follow
+          how individual buildings were built, renovated, and reimagined, and ask who each
+          change was for.
+        </p>
+        <p>
+          You probably know these buildings as they stand today. Click one on the map below
+          to see what it used to be.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE MAP ================= -->
+  <section class="map-section" id="map">
+    <div class="wrap">
+      <h2>Explore the Campus</h2>
+      <p class="hint">Buildings outlined in gold are part of the story. Hover to preview, click to read its history.</p>
+
+      <div class="map-frame">
+        <svg id="campus-map" viewBox="0 0 1135 938" role="img"
+             aria-label="Map of Georgia Tech's campus with clickable buildings">
+          <!-- Base map: assets/maps/campus.png (1135 x 938 px).
+               Building hotspots are drawn on top by js/map.js using the
+               pixel coordinates in js/buildings.js. -->
+          <image href="assets/maps/campus.png" x="0" y="0" width="1135" height="938"/>
+
+          <!-- Clickable buildings get drawn here by js/map.js -->
+          <g id="building-layer"></g>
+        </svg>
+
+        <div class="map-tip" id="map-tip" role="tooltip"></div>
+
+        <div class="map-caption">
+          Highlighted buildings are featured in this story. Base map: Georgia Tech
+          Parking and Transportation Services campus map.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BUILDING INDEX ================= -->
+  <section class="index-section" id="buildings">
+    <div class="wrap">
+      <h2 style="font-size:30px;color:var(--navy);margin:0;">The Buildings</h2>
+      <div class="card-grid" id="card-grid"><!-- filled by js/map.js --></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      A digital story by Ethan, Avary, Katherine, Niyu, Georgia &amp; Charlie · Georgia Institute of Technology.
+      Archival materials courtesy of Georgia Tech Archives and Special Collections.
+    </div>
+  </footer>
+
+  <script src="js/buildings.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

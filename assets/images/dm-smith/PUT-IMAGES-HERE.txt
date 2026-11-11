@@ -1,0 +1,1 @@
+Save this building's images here (hero.jpg, then.jpg, now.jpg, archive-1.jpg ...).
