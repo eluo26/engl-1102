@@ -289,10 +289,19 @@ a { color: var(--navy); }
   color: var(--paper);
   padding: 56px 0 48px;
 }
+.b-hero.archive-hero {
+  background-image:
+    linear-gradient(rgba(0, 48, 87, .78), rgba(0, 48, 87, .78)),
+    var(--hero-image, url("../assets/images/east-campus-dorms/campus-plan.png"));
+  background-position: center;
+  background-size: cover;
+}
 .b-hero .eyebrow { color: var(--gold-bright); }
 .b-hero h1 { font-size: clamp(34px, 5vw, 56px); margin: 0 0 10px; line-height: 1.08; font-weight: 600; }
 .b-hero .subtitle { font-size: 20px; color: #d8d2bf; margin: 0; max-width: 60ch; }
 .b-hero .byline { font-family: var(--sans); font-size: 13px; color: var(--gold); margin-top: 18px; letter-spacing: .05em; }
+.b-hero .hero-image-credit { font-family: var(--sans); font-size: 11px; line-height: 1.45; color: #d8d2bf; margin: 12px 0 0; }
+.b-hero .hero-image-credit a { color: var(--gold-bright); }
 .back-link { font-family: var(--sans); font-size: 13px; color: var(--gold) !important; text-decoration: none; display: inline-block; margin-bottom: 22px; }
 .back-link:hover { color: var(--gold-bright) !important; }
 
