@@ -21,9 +21,11 @@ gt-campus-story/
 │   ├── stamps.html       (Charlie)
 │   ├── brittain.html     (Georgia)
 │   ├── dm-smith.html     (Katy)
-│   ├── libraries.html, skiles.html, east-campus-dorms.html, tech-square.html  (TBD)
+│   ├── libraries.html, skiles.html, tech-square.html  (TBD)
+│   ├── east-campus-dorms.html  (Ethan)
 │   └── _template.html
 └── assets/
+    ├── fonts/                Local Montserrat fonts and their OFL license
     ├── images/<building>/   Put each building's photos here
     └── maps/                Put scanned campus maps here
 ```

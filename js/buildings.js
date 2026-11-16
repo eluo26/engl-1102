@@ -79,8 +79,8 @@ const BUILDINGS = [
     id: "east-campus-dorms",
     short: "East Campus Dorms",
     name: "East Campus Dorms",
-    teaser: "Postwar residence halls built as enrollment boomed after World War II.",
-    who: "TBD",
+    teaser: "East Campus began with 1920s residence halls and grew into Georgia Tech's first major housing center.",
+    who: "Ethan",
     shapes: [[820, 565, 52, 26], [820, 603, 46, 38], [818, 706, 48, 40]]
   },
   {
