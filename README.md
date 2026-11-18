@@ -27,7 +27,8 @@ gt-campus-story/
 └── assets/
     ├── fonts/                Local Montserrat fonts and their OFL license
     ├── images/<building>/   Put each building's photos here
-    └── maps/                Put scanned campus maps here
+    ├── maps/                Put scanned campus maps here
+    └── source-materials/    Original supplied Word and PDF documents
 ```
 
 ## Filling in a building page
@@ -42,7 +43,7 @@ From the Archives → Student Voices (Technique quotes) → Legacy → Sources.*
 - **Captions/citations:** edit the `<figcaption>` under each image.
 - **Sources:** add `<li>` items in the Sources list (MLA).
 
-If teammates send Google Docs, Ethan can paste the content in.
+Original supplied Word and PDF files are preserved in `assets/source-materials/` and linked from the corresponding pages. The original documents retain their formatting and embedded media.
 
 ## Adding or moving a building on the map
 1. Open `js/buildings.js` and copy an existing entry. Give it a new `id`.
