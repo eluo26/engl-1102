@@ -88,7 +88,7 @@ const BUILDINGS = [
     short: "Tech Square",
     name: "Technology Square",
     teaser: "Opened in 2003, Tech Square pushed campus across the Connector into Midtown Atlanta.",
-    who: "TBD",
+    who: "Katy",
     shapes: [[888, 360, 86, 52], [898, 422, 68, 50], [980, 422, 64, 52], [980, 480, 64, 42]]
   }
 ];

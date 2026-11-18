@@ -43,7 +43,7 @@ From the Archives → Student Voices (Technique quotes) → Legacy → Sources.*
 - **Captions/citations:** edit the `<figcaption>` under each image.
 - **Sources:** add `<li>` items in the Sources list (MLA).
 
-Original supplied Word and PDF files are preserved in `assets/source-materials/` and linked from the corresponding pages. The original documents retain their formatting and embedded media.
+Original supplied Word and PDF files are preserved in `assets/source-materials/`. Images from the library PDF and Brittain research document are also extracted into the corresponding image folders for use on the site.
 
 ## Adding or moving a building on the map
 1. Open `js/buildings.js` and copy an existing entry. Give it a new `id`.
